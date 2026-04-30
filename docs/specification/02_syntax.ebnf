@@ -59,7 +59,15 @@ expression =
     assign_expression ;
 
 assign_expression =
-    logical_or_expression , [ "=" , assign_expression ] ;
+    logical_or_expression , [ assign_op , assign_expression ] ;
+
+assign_op =
+    "=" |
+    "+=" |
+    "-=" |
+    "*=" |
+    "/=" |
+    "%=" ;
 
 logical_or_expression =
     logical_and_expression                                |
