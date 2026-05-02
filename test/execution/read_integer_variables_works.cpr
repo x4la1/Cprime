@@ -1,0 +1,7 @@
+fn I32 main() {
+    I32 a;
+    read(&a);
+    println(a);
+
+    return 0;
+}

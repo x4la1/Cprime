@@ -1,0 +1,18 @@
+fn I32 main() {
+    I32 duplicate, duplicate;
+    
+    return 0;
+}
+
+fn I32 main() {
+    I32 duplicate = 42;
+    I32 duplicate = 52;
+    
+    return 0;
+}
+
+fn I32 main() {
+    I32 duplicate = 42, duplicate = duplicate;
+
+    return 0;
+}

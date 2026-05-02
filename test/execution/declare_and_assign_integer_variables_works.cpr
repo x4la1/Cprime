@@ -1,0 +1,23 @@
+fn I32 main() {
+    I32 a;
+    a = 52;
+    println(a);
+
+    I32 b = 42;
+    println(b);
+
+    b = 62;
+    println(b);
+
+    b = a;
+    println(b);
+
+    I32 firstDeclare = 5, secondDeclare = firstDeclare;
+    println(firstDeclare, " ", secondDeclare);
+
+    I32 z = 3, x = 4, c = 5;
+    z = x = c;
+    println(z, x, c);
+
+    return 0;
+}
