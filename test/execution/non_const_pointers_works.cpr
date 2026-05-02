@@ -1,0 +1,15 @@
+fn I32 main() {
+    I32 a = 5;
+    I32* b = &a;
+    println(a);
+    println(*b);
+    *b = 10;
+    println(a);
+    println(*b);
+
+    I32* c = null;
+    I32 d = 52;
+    c = &d;
+    println(d);
+    println(*c);
+}
